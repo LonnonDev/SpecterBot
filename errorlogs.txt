@@ -1,0 +1,13 @@
+
+13:57:31 | console  Traceback (most recent call last):
+  File "C:\Users\jenli\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\ext\commands\bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\jenli\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\ext\commands\core.py", line 855, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\jenli\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\ext\commands\core.py", line 789, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\jenli\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\ext\commands\core.py", line 697, in _parse_arguments
+    transformed = await self.transform(ctx, param)
+  File "C:\Users\jenli\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\ext\commands\core.py", line 542, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: cog is a required argument that is missing.
